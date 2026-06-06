@@ -1,0 +1,65 @@
+Modules, Comments & pip
+
+What is a Comment?
+Imagine you're writing notes in your textbook 📚. Those notes are for YOU, not for the exam. They help you understand later.
+Comments in Python = Notes in your code.
+Python completely ignores comments. They're just for humans to read.
+
+Why use comments?
+✅ Explain what your code does
+✅ Help others understand your code
+✅ Help YOURSELF understand code you wrote 6 months ago
+✅ Temporarily disable code while testing
+
+Syntax — Single Line Comment:
+# This is a comment
+# Python ignores this line completely
+
+print("Hello")  # This prints Hello - you can comment after code too!
+
+Syntax — Multi Line Comment:
+"""
+This is a multi-line comment.
+You can write many lines here.
+Python ignores all of this.
+This is also called a Docstring.
+"""
+
+print("Python still runs this!")
+
+What are Modules?
+Real Life Analogy 🏪
+Imagine a supermarket. You don't make everything at home — you go to the supermarket and pick what you need.
+Modules = Supermarket for code.
+Python has thousands of pre-written code packages (modules) that smart people wrote. You just import them and use them! No need to write everything from scratch.
+
+You need to calculate square root?  → Import math module
+You need today's date?              → Import datetime module  
+You need random numbers?            → Import random module
+You want to build a website?        → Import flask module
+
+What is pip?
+Real Life Analogy 📱
+Remember installing apps on your phone? You go to Play Store / App Store and install what you need.
+pip = Play Store for Python 🏪
+pip lets you download and install third-party modules (modules made by other developers, not included with Python).
+
+How to use pip:
+Open your Command Prompt / Terminal (NOT Python, just the regular terminal):
+# Install a package
+pip install package_name
+
+# Example - install a package called 'requests' (for internet stuff)
+pip install requests
+
+# Install a specific version
+pip install requests==2.28.0
+
+# See all installed packages
+pip list
+
+# Uninstall a package
+pip uninstall requests
+
+# Check pip version
+pip --version
