@@ -1,49 +1,103 @@
 # Python Full Stack Journey 🚀
 
-Hi, I'm Shahid.
+Hi, I'm Shahiddin Shaik.
 
 I'm learning Python Full Stack Development from scratch and documenting my progress daily.
 
-## Completed Topics
+---
 
-### Python Fundamentals
+## 📂 Repository Structure
 
-- [x] Variables
-- [x] Data Types
-
-## Currently Learning
-
-- User Input
-- Operators
-- Conditional Statements
-
-## Goal
-
-- Become a Python Full Stack Developer
-- Build real-world projects
-- Upload code daily to GitHub
-- Share progress on LinkedIn
-
-## Repository Structure
-
+```text
 Python FullStack/
-├── Python Fundamentals
-├── HTML
-├── CSS
-├── JavaScript
-├── React
-├── Flask
-├── Django
-└── Projects
+├── Python Fundamentals/
+├── HTML/
+├── CSS/
+├── JavaScript/
+├── React/
+├── Flask/
+├── Django/
+├── Projects/
+└── README.md
+```
 
-## Day 1 Progress
+---
 
-Learned:
-- Variables
-- Data Types
+## 📅 Learning Progress
 
-Created:
-- Practice programs
-- Notes
+### ✅ Chapter 1: Variables & Data Types
 
-Date: 6th June 2026
+Topics Covered:
+
+* Variables
+* Integer (`int`)
+* Float (`float`)
+* String (`str`)
+* Boolean (`bool`)
+* None Type (`None`)
+* Variable Naming Rules
+* snake_case Convention
+* `type()` Function
+
+---
+
+### ✅ Chapter 2: Type Conversion, Input & Operators
+
+Topics Covered:
+
+#### Type Conversion
+
+* `int()`
+* `float()`
+* `str()`
+* `bool()`
+* String to Integer
+* Integer to String
+* Float to Integer
+* String to Float
+
+#### User Input
+
+* `input()`
+* Converting input values
+* Taking numerical input from users
+
+#### Multiple Assignment
+
+* Assigning multiple variables in one line
+* Assigning same value to multiple variables
+
+#### Arithmetic Operators
+
+* `+` Addition
+* `-` Subtraction
+* `*` Multiplication
+* `/` Division
+* `//` Floor Division
+* `%` Modulus
+* `**` Exponent
+
+#### Assignment Operators
+
+* `+=`
+* `-=`
+* `*=`
+* `/=`
+* `//=`
+* `%=`
+
+---
+
+🔄 Next Topic: Strings
+
+## 🚀 Goal
+
+* Become a Python Full Stack Developer
+* Build real-world projects
+* Master DSA
+* Learn React, Flask & Django
+* Learn AWS Cloud
+* Upload code daily to GitHub
+* Share progress on LinkedIn
+
+---
